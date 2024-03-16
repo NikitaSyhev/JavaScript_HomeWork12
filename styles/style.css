@@ -1,0 +1,38 @@
+
+#container-round {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 1000px;
+    min-height: 160px;
+    /* переход на другую строку */
+    flex-wrap: wrap; 
+}
+
+.round {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:red;
+    margin: 30px;
+}
+
+#container-button {
+    display: flex;
+}
+
+#add-block {
+    width: 70px;
+    height: 35px;
+    font-size: 12px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 30px;
+}
+#delete-block {
+    width: 70px;
+    height: 35px;
+    font-size: 12px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 30px;
+}
+
